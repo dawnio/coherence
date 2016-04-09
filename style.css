@@ -1,0 +1,79 @@
+* {
+  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  /*padding: 30px;*/
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.90);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+  align-items: center;
+}
+.card-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+img {
+  width: 75px;
+  height: 75px;
+  margin: 20px 0 30px 0;
+  border-radius: 75px;
+}
+.card-name {
+  font-size: 2em;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.6);
+}
+.card-description {
+  font-size: 0.9em;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+hr {
+  border: none;
+  border-bottom: solid 1px rgba(255, 255, 255, 1);
+  border-top: solid 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+ul.card-buttons {
+  padding: 10px;
+  list-style: none;
+}
+ul.card-buttons li {
+  display: inline-block;
+}
+ul.card-buttons li + li {
+  padding-left: 10px;
+}
+ul.card-buttons li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+ul.card-buttons li a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
