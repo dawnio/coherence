@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Coherence
 
 ![Screenshot of Coherence](screenshot.png)
